@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Villa Roofing</title>
+    <meta name="description" content="Villa Roofing is here for you to do any roofing work, big or small!">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact-section.css">
+    <link rel="stylesheet" href="about-sections.css">
+    <link rel="stylesheet" href="home-section.css">
+    <link rel="stylesheet" href="services-section.css">
+    <script src="script.js"></script>
+    
+</head>
+
+<body>
+    <header class="site-header">
+
+        <div class="banner-container">
+            
+            <img id="img-logo" src="Images/company_logo.png"  alt="Roof Repair Icon" >
+            <p>30 Years of Excellence in Roofing</p>
+        <br>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About Us</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact Us</a>
+        </nav>
+    </div>
+    </header>
+
+    <!-- first section "HOME"-->
+    <section id="home">
+        
+        
+    
+            <p>Welcome to Villa Roofing, one of the best roofing companies out there, we have been providing quality roofing services to the Chicago area for over 30 years. Call us now for any roofing job, big or small.<br> 1-800-000-0000. </p>
+        
+        
+    </section>
+
+
+    <!-- Second section "ABOUT US"-->
+    <section id="about">
+        
+        
+        <h2>Who are we?</h2>
+        <p id="pone">Villa Roofing is a family-owned and an operated roofing company based in Chicago. Our team of experts is dedicated to ensuring your roof is in top condition, and will work with you to find the best roofing solutions for your home or business.<br><br> </p>
+        <p id="ptwo"> We know how hard it can be to find a contractor that does quality work at an affordable price. That's why we take the time to go over our invoices with our customers.Transparent pricing is important to us because that's what we would expect of anyone we hire.</p>
+    </section>
+
+
+
+    <!-- Third section "Services"-->
+    <section id="services">
+        <h2>Our Roofing Services</h2>
+          
+            <article>
+                <img src="Images/images (1).png" alt="Roof Repair Icon" class="service-icon">
+                <h3>Roof Repair</h3>
+                <p>At Villa Roofing, we specialize in repairing all types of roofs. Whether you have a leak, missing
+                    shingles, or need a complete roof replacement, our team of experts will ensure the job is done right.</p>
+                
+            </article>
+        
+            
+            <article>
+                <img src="Images/installation.jpg" alt="Roof Repair Icon" class="service-icon">
+                <h3>Roof Installation</h3>
+                <p>If you need a new roof installed, Villa Roofing is the company for you. Our team will work with you to
+                    choose the best roofing materials for your home or business and ensure the installation process is
+                    hassle-free.</p>
+                
+            </article>
+       
+            
+            
+            <article>
+                <img src="Images/commercial.png" alt="Roof Repair Icon" class="service-icon">
+                <h3>Commercial Roofing</h3>
+                <p>We also offer commercial roofing services for businesses in the Chicago area. From flat roofs to metal
+                    roofs, our team has the expertise to handle any commercial roofing job.</p>
+                
+            </article>
+          
+        </section>
+
+    
+    
+    
+    <!-- Fourth section "Contact us"-->
+   <section id="contact">
+    <h2 style="font-size: 50px; font-weight: 100; color: #e9cb9f ;">CONTACT US 24/7</h2>
+    <br><br>
+
+        <div class="contact-info">
+            <div class="contact-info-item">
+                <h3>Call us</h3>
+                <p style="color: rgb(255, 255, 255);">123-456-7890</p>
+            </div>
+            <div class="contact-info-item">
+                <h3>Email us</h3>
+                <p style="color: rgb(255, 255, 255);">xxxxxxxxxxx@gmail.com</p>
+            </div>
+            <div class="contact-info-item">
+                <h3>Areas Covered</h3>
+                <p style="color: rgb(255, 255, 255);">Chicago, SUBURBS</p>
+            </div>
+            <div class="contact-info-item">
+                <h3>Follow us on</h3>
+                <p >
+                    <a  href="https://www.facebook.com/" target="blank">
+                        <img id="facebook-logo" src="Images/facebook.png" alt="facebook" >
+                        
+                    </a>
+                </p>
+            </div>
+        </div>
+    <p>
+    </p>
+    <div class="container">  
+        <form id="contact" action="script.php" method="POST" enctype="multipart/form-data" >
+            
+          <h3>GET A FREE ROOFING QUOTE!</h3>
+          <br>
+          <fieldset>
+            <input name="name" placeholder="Your name" type="text" tabindex="1" >
+          </fieldset>
+          <fieldset>
+            <input name="email" placeholder="Your Email Address" type="email" tabindex="2" required>
+          </fieldset>
+          <fieldset>
+        
+          <fieldset>
+            <textarea name="message" placeholder="Type your message here...." tabindex="5" required></textarea>
+          </fieldset>
+          <fieldset>
+            <button id="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+            
+          </fieldset>
+          
+          <p class="copyright">Thank You!</p>
+          
+        </form>
+      </div>
+   </section>
+   <footer>
+    &copy; 2024 Villa Roofing. All Rights Reserved.
+</footer>
+<script>
+
+    
+ window.onbeforeunload = function () {
+    window.scrollTo(0, 0);
+  }
+
+
+</script>
+
+
+
+</body>
+
+</html>
+

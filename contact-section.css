@@ -1,0 +1,189 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    font-smooth: antialiased;
+    text-rendering: optimizeLegibility;
+
+  }
+  
+   
+  
+  .container {
+    max-width: 400px;
+    width: 100%;
+    height:fit-content;
+    margin: 0 auto;
+    position: relative;
+    padding: 0px;
+    padding-bottom: 300px;
+    
+  }
+  
+  #contact input[type="text"],
+  #contact input[type="email"],
+  #contact input[type="tel"],
+  #contact input[type="url"],
+  #contact textarea,
+  #contact button[type="submit"] {
+    font: 400 13px/16px "Roboto", Helvetica, Arial, sans-serif;
+  }
+
+  
+
+
+.contact-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 30px; /* Adjust the margin as needed */
+}
+
+.contact-info-item {
+    flex-basis: calc(25% - 0px); /* Adjust the width of each item, considering the margin */
+    margin-left: 0px; /* Adjust the margin between items */
+    
+}
+
+
+  #contact {
+    background: #2b2826;
+    
+    padding: 20px;
+    
+    
+  }
+  
+  #facebook-logo{
+    height: 40px;
+    width: 40px;
+
+  }
+  
+  #contact h3 {
+    color:#e9cb9f;
+    display: block;
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 10px;
+  }
+  #contact p {
+    color:#fcfcfc;
+    
+  }
+  #contact p a {
+    color: inherit; /* Use the default text color for the link */
+    text-decoration: none; /* Remove underline for the link */
+}
+ 
+  
+  fieldset {
+    border: medium none !important;
+    margin: 0 0 10px;
+    min-width: 100%;
+    padding: 0;
+    width: 100%;
+  }
+  
+  #contact input[type="text"],
+  #contact input[type="email"],
+  #contact input[type="tel"],
+  #contact input[type="url"],
+  #contact textarea {
+    width: 100%;
+    border: 1px solid #ffffff;
+    background: #ffffff;
+    margin: 0 0 1px;
+    padding: 10px;
+  }
+  
+  #contact input[type="text"]:hover,
+  #contact input[type="email"]:hover,
+  #contact input[type="tel"]:hover,
+  #contact input[type="url"]:hover,
+  #contact textarea:hover {
+    -webkit-transition: border-color 0.3s ease-in-out;
+    -moz-transition: border-color 0.3s ease-in-out;
+    transition: border-color 0.3s ease-in-out;
+    border: 1px solid #fdfdfd;
+  }
+  
+  #contact textarea {
+    height: 100px;
+    max-width: 100%;
+    resize: none;
+  }
+  
+  #contact button[type="submit"] {
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    background: #797c79;
+    color: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+    font-size: 15px;
+  }
+  
+  #contact button[type="submit"]:hover {
+    background: #e9cb9f;
+    -webkit-transition: background 0.3s ease-in-out;
+    -moz-transition: background 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  #contact button[type="submit"]:active {
+    box-shadow: inset 0 1px 3px rgba(245, 245, 245, 0.5);
+  }
+  
+  
+  
+  #contact input:focus,
+  #contact textarea:focus {
+    outline: 0;
+    border: 1px solid #b3b3b3;
+  }
+  
+  ::-webkit-input-placeholder {
+    color: #888;
+  }
+  
+  :-moz-placeholder {
+    color: #888;
+  }
+  
+  ::-moz-placeholder {
+    color: #888;
+  }
+  
+  :-ms-input-placeholder {
+    color: #888;
+  }
+
+  @media only screen and (max-width:600px) {
+
+    #contact h3 {
+      
+      font-size: 1em;
+      
+    }
+    #contact p {
+      font-size: 0.5em;
+      
+      
+    }
+    #facebook-logo{
+      height: 30px;
+      width: 30px;
+  
+    }
+    
+    
+  }

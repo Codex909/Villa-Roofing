@@ -1,0 +1,92 @@
+/* About section styles */
+#about {
+    margin: 0 auto;
+    padding: 100px; /* Adjust the padding as needed */
+    background: url('Images/Edge-August-B2.jpg') center/cover no-repeat fixed  ;
+    color: #ffffff;
+    text-align: center;
+    padding: 200px 10px;
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 315px;
+    
+}
+
+
+#about::before {
+    content: '';
+    
+    background-color: #000000a9;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+}
+#about h2 {
+    font-family: serif;
+    font-size: 2.7em;
+    font-weight: 400;
+    margin-bottom: 50px; /* Adjust this value as needed */
+    color: #fcfcfc;
+    line-height: 1.6;
+    position: relative;
+}
+
+#pone {
+    font-family: serif;
+    
+    font-size: 1.5em;
+    color: #dadada;
+    max-width: 1000px;
+    margin: 0 auto;
+    line-height: 1.3;
+    position: relative;
+}
+#ptwo {
+    font-family: serif;
+    
+    font-size: 1.7em;
+    color: #dadada;
+    max-width: 1000px;
+    margin: 0 auto;
+    line-height: 1.3;
+    position: relative;
+}
+@media screen and (max-width:600px) {
+
+    #about h2{
+        font-size: 1.5em;
+        
+        
+        
+    }
+    #pone {
+        font-family: serif;
+        
+        font-size: 1.0em;
+        color: #dadada;
+        max-width: 1000px;
+        margin: 0 auto;
+        line-height: 1.3;
+        position: relative;
+    }
+    #ptwo {
+        font-family: serif;
+        padding: 1%;
+        font-size: 1.0em;
+        color: #dadada;
+        max-width: 600px;
+        margin: 0 auto;
+        line-height: 1.3;
+        position: relative;
+    }
+    #about {
+        margin: auto;
+        padding: 90px; /* Adjust the padding as needed */
+        background: url('Images/Edge-August-B2.jpg') center/cover no-repeat  ;
+        
+    }
+    
+}
